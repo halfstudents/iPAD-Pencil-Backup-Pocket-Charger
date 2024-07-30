@@ -11,12 +11,19 @@ This project is sponsored by PCBWAY, the leading PCB manufacturing company deali
 Components Required:
 
 LP7800K4 charging and booster IC
+
 10uf, 1uf ceramic 603 capacitor
+
 1K resistor 0603 package
+
 0603 package LEDs
+
 USB male type A/ type C
+
 Li-Po battery 300-600mAH
-PCBs from PCBWAY (https://www.pcbway.com/?from=circuitkicker)
+
+PCBs from PCBWAY 
+(https://www.pcbway.com/?from=circuitkicker)
 
 Circuit  Description:
 Usually USB devices use 5V charging, and the Li-Po battery is rated 3.7V. So an efficient boost and charge mechanism is required to charge the pencil. For this application an IC LP7800K4 is best suited. I can also make use of TP4056 charge and Mt3068 booster IC integrated on a PCB but then I have to add a lot more circuitry to the PCB.
